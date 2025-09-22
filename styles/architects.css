@@ -205,9 +205,6 @@ main>section {
 
 }
 
-/* .featured-architect img {
-    width: 100%;
-} */
 
 /* sponsor related styles */
 .sponsor-info {
@@ -225,15 +222,43 @@ main>section {
     filter: grayscale(100%);
 }
 
-/*chtgpt .features img {
-    margin-top: 50px;
-    /* or adjust as needed */
+/* footer related styles */
+.simple-footer {
+    background-color: #FFF4E7;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 900px;
+    margin: 100px auto;
+    /* centers it and adds space from above */
+    color: #424242;
+    font-size: 1rem;
+}
+
+.simple-footer {
+    font-family: "Work Sans", sans-serif;
+}
+
+.simple-footer {
+    background-color: #FFF4E7;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    margin: 100px 0 0 0;
+    color: #424242;
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+    max-width: none;
+    /* remove limit */
+}
 
 
 
 
 
 /* responsive media query */
+
 @media screen and (max-width: 576px) {
 
     .navbar,
